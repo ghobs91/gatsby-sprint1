@@ -78,9 +78,9 @@ While still a work in progress, our decision was to have each half of our FSW te
  
 As a group, provide links to evidence that:
 
-Front end deploy: https://upbeat-shockley-073b78.netlify.com/
+Front end deploy: https://anywhere-reader-test.netlify.com/
 
-Back end deploy: https://likjshfiljsundiclues.herokuapp.com/
+Back end deploy: https://anywhere-reader-test.herokuapp.com
 
 User accounts are created: ![alt text](https://i.imgur.com/cZhY16J.png) 
  
