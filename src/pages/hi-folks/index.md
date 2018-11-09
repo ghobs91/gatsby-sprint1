@@ -47,13 +47,15 @@ Pick one of your tickets and provide a detailed analysis of the work you did.  T
 ####Back End Ticket 1 analysis
 This ticket involved setting up the initial django back end that we would build off of. Before starting this, I gave myself a crash course in Python to familiarize myself with the syntax. The training kit was particularly helpful in getting up to speed on Python. Upon initially generating a basic django backend, the file structure looks like so:
 
+![alt text](https://i.imgur.com/HcvMoLv.png)
+
 After generating this project, I made sure to obscure any sensitive keys like the secret key and database login into a separate .env file, and include .env in the .gitignore file. After importing the python-decouple framework, the values defined in .env were then called in settings.py like so:
 
-Once this task was completed, I set out to connect a test postgres database to the django backend using docker and pgAdmin. This entailed using a virtual linux environment to emulate the postgres database, so that I can create a migration, a superuser, and other tasks to ensure the db was working properly.
+![alt text](https://i.imgur.com/ZNLleGp.png)
 
+Once this task was completed, I set out to connect a test postgres database to the django backend using docker and pgAdmin. This entailed using a virtual linux environment to emulate the postgres database, so that I can create a migration, a superuser, and other tasks to ensure the db was working properly.
  
- 
- 
+![alt text](https://i.imgur.com/6OZ9RRR.png) 
  
 ##Part 2 - Milestone Reflections
  
@@ -67,6 +69,6 @@ While still a work in progress, our decision was to have each half of our FSW te
 As a group, provide links to evidence that:
 Front end deploy: https://upbeat-shockley-073b78.netlify.com/
 Back end deploy: https://likjshfiljsundiclues.herokuapp.com/
-User accounts are created:
+User accounts are created: ![alt text](https://i.imgur.com/cZhY16J.png) 
  
 
