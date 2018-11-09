@@ -23,19 +23,29 @@ List the tasks you pulled this week, and provide a link to the successfully merg
 
 ####Front End
 Ticket 1
+
 Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/28
+
 Trello: https://trello.com/c/p6DwakFh/49-react-testing
 
 ####Back End
+
 Ticket 1
+
 Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/11
+
 Trello: https://trello.com/c/C9ZhrUIJ/17-basic-django-backend
 
 Ticket 2
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/23 Trello: https://trello.com/c/rlOfsk0s/39-connect-postgres-to-django
+
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/23 
+
+Trello: https://trello.com/c/rlOfsk0s/39-connect-postgres-to-django
 
 Ticket 3
+
 Github (Wiki/deployment task): https://github.com/Lambda-School-Labs/Labs8-OfflineReader/wiki/Environment-Setup:-Django-&-Python
+
 Trello:  https://trello.com/c/06g9v29i/45-wiki-for-django-python-setup
  
  
@@ -67,8 +77,11 @@ While still a work in progress, our decision was to have each half of our FSW te
  
  
 As a group, provide links to evidence that:
+
 Front end deploy: https://upbeat-shockley-073b78.netlify.com/
+
 Back end deploy: https://likjshfiljsundiclues.herokuapp.com/
+
 User accounts are created: ![alt text](https://i.imgur.com/cZhY16J.png) 
  
 
