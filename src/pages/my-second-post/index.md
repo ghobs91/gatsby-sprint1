@@ -1,6 +1,6 @@
 ---
-title: Labs 8 Sprint 1
-date: "2018-11-09T22:40:32.169Z"
+title: Labs 8 Sprint 2
+date: "2018-16-11T22:40:32.169Z"
 ---
 
 ##Part 1 - Individual Accomplishments this Week
@@ -10,12 +10,9 @@ My github: @ghobs91
  
 Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
  
-My work this week primarily revolved around django backend and some react front end testing. I built the basic django infrastructure that we would build the rest of our backend around. I then used docker to integrate PostgreSQL into our django and ran it in a virtual environment for testing purposes. 
- 
-Our team correctly predicted that going with a language and framework we were unfamiliar with would be challenging up front, but rewarding later, due to Djangos robust boilerplate features. The biggest challenge for me personally was getting Docker to successfully connect a PostgreSQL database, local setup gave me some issues that I eventually sorted out with some help from teammates and my PM. I was pleased to see that I was able to give myself a crash course in Python and eventually get Django and Postgres set up, despite being unfamiliar with all 3.
- 
- 
- 
+My work this week focused on the 2nd two bullets of this weeks MVP, connecting the front and back end to enable creation of article objects, and integrating Oauth 3rd party libraries with our authentication system. For the first task, I built out the async redux structure needed to interact with our django backend in order to create user objects with articles associated with them. For the second task, I wrote and then fully refactored our front end login flow, adding google Oauth in the second refactor.
+
+The biggest challenges and lessons this week revolved around a) Putting too many tasks into each PR, and b) Not efficiently dividing mvp tasks between us in a way that led to duplication of work. For the former, I will work to better divide my tasks into multiple PRs, as the 2 PRs I submitted this week were quite large, and were realistically at least 4-5 PRs worth of work. For the latter, our group will spend some time today building an improved work flow so that we efficiently utilize our efforts and don't struggle to meet MVP going forward.
  
  
 ##Tasks Pulled
@@ -24,29 +21,19 @@ List the tasks you pulled this week, and provide a link to the successfully merg
 ####Front End
 Ticket 1
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/28
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/51
 
-Trello: https://trello.com/c/p6DwakFh/49-react-testing
+Trello: https://trello.com/c/TjObsJ5W/83-refactored-signup-signin-logout-and-reducer-actions-to-have-most-of-django-auth-flow-setup
 
 ####Back End
 
 Ticket 1
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/11
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/wiki/Article-JSON-structure
 
-Trello: https://trello.com/c/C9ZhrUIJ/17-basic-django-backend
+Trello: https://trello.com/c/Hz58DXOc/79-create-structure-property-wiki-for-how-article-objects-will-look
 
-Ticket 2
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/23 
-
-Trello: https://trello.com/c/rlOfsk0s/39-connect-postgres-to-django
-
-Ticket 3
-
-Github (Wiki/deployment task): https://github.com/Lambda-School-Labs/Labs8-OfflineReader/wiki/Environment-Setup:-Django-&-Python
-
-Trello:  https://trello.com/c/06g9v29i/45-wiki-for-django-python-setup
  
  
  
