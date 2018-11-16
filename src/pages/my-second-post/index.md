@@ -25,6 +25,18 @@ Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/51
 
 Trello: https://trello.com/c/TjObsJ5W/83-refactored-signup-signin-logout-and-reducer-actions-to-have-most-of-django-auth-flow-setup
 
+Ticket 2
+
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/39
+
+Trello: https://trello.com/c/8H2oo6NP/21-redux-setup-to-interact-with-api
+
+Ticket 3
+
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/51
+
+Trello: https://trello.com/c/sw0I9lOk/107-integrate-google-oauth-into-frontend
+
 ####Back End
 
 Ticket 1
@@ -32,27 +44,23 @@ Ticket 1
 Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/wiki/Article-JSON-structure
 
 Trello: https://trello.com/c/Hz58DXOc/79-create-structure-property-wiki-for-how-article-objects-will-look
-
-
- 
- 
  
  
 ##Detailed Analysis
 Pick one of your tickets and provide a detailed analysis of the work you did.  This should be approximately ¼ page of text, and at least three screenshots.
  
-####Back End Ticket 1 analysis
-This ticket involved setting up the initial django back end that we would build off of. Before starting this, I gave myself a crash course in Python to familiarize myself with the syntax. The training kit was particularly helpful in getting up to speed on Python. Upon initially generating a basic django backend, the file structure looks like so:
+####Front End Ticket 3 analysis
+This ticket involved setting up our front end auth to integrate Google Oauth login. Using Google's documentation and the Django documentation for auth, we setup the following end result:
 
-![alt text](https://i.imgur.com/HcvMoLv.png)
+![alt text](https://i.imgur.com/ZpAVn7t.png)
 
-After generating this project, I made sure to obscure any sensitive keys like the secret key and database login into a separate .env file, and include .env in the .gitignore file. After importing the python-decouple framework, the values defined in .env were then called in settings.py like so:
+Getting Google auth setup involved integrating their node modules and making sure the login flow and transfer of tokens worked with our django backend:
 
-![alt text](https://i.imgur.com/ZNLleGp.png)
+![alt text](https://i.imgur.com/xRTMTiY.png)
 
-Once this task was completed, I set out to connect a test postgres database to the django backend using docker and pgAdmin. This entailed using a virtual linux environment to emulate the postgres database, so that I can create a migration, a superuser, and other tasks to ensure the db was working properly.
+Finally, a protected component was created that shows the articles associated with a user, only if that user is logged in:
  
-![alt text](https://i.imgur.com/6OZ9RRR.png) 
+![alt text](https://i.imgur.com/FMz7y0D.png 
  
 ##Part 2 - Milestone Reflections
  
