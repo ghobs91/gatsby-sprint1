@@ -64,19 +64,24 @@ Finally, a protected component was created that shows the articles associated wi
  
 ##Part 2 - Milestone Reflections
  
-As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences forming a team. What did you do to help the team solidify as a group? What did you do that you now realize caused friction in this process?
+As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to integrate several servers, pages, APIs, and services into one project. Describe how your pieces of the project interfaced with and integrated with your teammates.
  
-Part of the challenge, and yet also one of the biggest learning experiences, of Labs, has definitely been adjusting to the dynamics of working in a team, as opposed to working alone. The initial learning curve was in effectively delegating tasks. Due to the heavily boilerplate-eque nature of the beginning of a project, we had to determine the optimal way to split up tasks so that one person wasn’t waiting for another’s boilerplate to be set up before they could begin to work on their task. This was especially important due to the fact that our team is a mixture of Full Stack and iOS members. 
- 
-While still a work in progress, our decision was to have each half of our FSW team alternate between two backend tasks and two front end tasks. In addition, we have the iOS team build autonomously as essentially a separate front end team, using boilerplate backend on firebase to test their code whenever our backend is being worked on. One area of friction that we ran into was getting members of the team up to speed on environment setup for a framework they hadn’t used yet, especially when it came to django and postgres. We remedied this by developing wiki pages that detail setup for every new framework we make use of.
- 
+This week was enlightening in the intricacies of implementing multiple APIs and having them play well with our backend, and with each other. Each API has its own format of how JSON should be submitted and how it is returned. This pushed us to write our own wiki entry to standardize across the team the formatting in which we would submit articles for each user. We made this wiki collaborative so that the full stack and iOS teams both had input into their needs for data modeling.
+
+This made us learn just how incredibly important it is to communicate and coordinate our efforts well. If one team member is not up to speed on how another is implementing a certain API, they will have issues determing the optimal way for their article objects to be created in line with how associated user objects are set up, for example. We learned a valuable lesson this week just how crucial it is for us to better coordinate our delegation of MVP tasks so that effort and time is not wasted on duplication of efforts that then need to be refactored. I'm confident going forward that our productivity will be greatly increased when we start to begin every week with a discussion of exactly how the MVP tasks will be divided, and which members should work closely together when relevant. 
  
 As a group, provide links to evidence that:
 
-Front end deploy: https://anywhere-reader-test.netlify.com/
+Front end deploy: 
+
+-Stripe: https://i.imgur.com/JBg6vHI.png
+-oAuth Facebook: https://i.imgur.com/rPoA43u.png and https://i.imgur.com/uK26e0Q.png
+-oAuth Google: https://i.imgur.com/dxIwJUI.png
 
 Back end deploy: https://anywhere-reader-test.herokuapp.com
-
-User accounts are created: ![alt text](https://i.imgur.com/cZhY16J.png) 
  
+
+## Whiteboard
+
+Link: https://youtu.be/_azpiBvLIDY
 
