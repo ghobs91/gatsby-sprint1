@@ -83,5 +83,5 @@ Back end deploy: https://anywhere-reader-test.herokuapp.com
 
 ## Whiteboard
 
-Link: https://youtu.be/_azpiBvLIDY
+Link: https://www.youtube.com/watch?v=azUko6LCb5k
 
