@@ -69,9 +69,12 @@ Finally, below you can see the front end flow that pulls this all together:
 As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to convert a disparate set of components into a single, cohesive, and complete product. Describe the challenges you faced and the steps you took to overcome them.
 As a group, demonstrate that you project has implemented every feature in the specification. Bugs can be present, and a rough experiences is expected. List each major feature in your specification and provide a link to where that feature is implemented.
 
+This past week taught our team a great deal on how to work with a deadline and prioritize tasks. We struggled the first day due to a miscommunication from the rubric regarding which core functions to focus on, but quickly regrouped and divided up tasks accordingly. One of the challenges we faced was how to optimally complete a core function when another function was delayed in its completion. This taught us how to better modularize our functionality so that it could stand alone when another fxn wasn't completely operational. We also learned how best to determine how best to work on similar tasks without writing conflicting code. 
 
-
- 
+1. Home Page: https://anywhere-reader-test.netlify.com/landingpage
+2. Dashboard: https://anywhere-reader-test.netlify.com/
+3. Settings: https://anywhere-reader-test.netlify.com/settings
+4. Modal: https://anywhere-reader-test.netlify.com/viewpage
 
 ## Whiteboard
 
