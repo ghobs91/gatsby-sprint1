@@ -50,34 +50,30 @@ Trello 2: https://trello.com/c/BuXinrWe/165-handle-cover-image-and-full-text-in-
 ##Detailed Analysis
 Pick one of your tickets and provide a detailed analysis of the work you did.  This should be approximately ¼ page of text, and at least three screenshots.
  
-####Front End Ticket 3 analysis
-This ticket involved setting up our front end auth to integrate Google Oauth login. Using Google's documentation and the Django documentation for auth, we setup the following end result:
+####Front End Ticket 2 analysis
+This ticket involved pulling together the flow of submit url -> scraper processes url -> creates page object -> front end populates with new page object.
 
-![alt text](https://i.imgur.com/ZpAVn7t.png)
+In the below screenshot, you can see a portion of the action function that pertains to making a POST request to the scraper with the URL. After successfully scraping the article, the function then makes a GET request to pull the new Page object and repopulate the page. 
+![alt text](https://i.imgur.com/au54sGY.png)
 
-Getting Google auth setup involved integrating their node modules and making sure the login flow and transfer of tokens worked with our django backend:
+Below is the main fetch pages action fxn that runs whenever the dashboard is loaded/refreshed:
 
-![alt text](https://i.imgur.com/xRTMTiY.png)
+![alt text](https://i.imgur.com/VP2dSOi.png)
 
-Finally, a protected component was created that shows the articles associated with a user, only if that user is logged in:
+Finally, below you can see the front end flow that pulls this all together:
  
-![alt text](https://i.imgur.com/FMz7y0D.png 
+![alt text](https://i.imgur.com/EK3Zbyz.png 
  
 ##Part 2 - Milestone Reflections
  
 As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to convert a disparate set of components into a single, cohesive, and complete product. Describe the challenges you faced and the steps you took to overcome them.
 As a group, demonstrate that you project has implemented every feature in the specification. Bugs can be present, and a rough experiences is expected. List each major feature in your specification and provide a link to where that feature is implemented.
 
-Front end deploy: 
 
--Stripe: https://i.imgur.com/JBg6vHI.png
--oAuth Facebook: https://i.imgur.com/rPoA43u.png and https://i.imgur.com/uK26e0Q.png
--oAuth Google: https://i.imgur.com/dxIwJUI.png
 
-Back end deploy: https://anywhere-reader-test.herokuapp.com
  
 
 ## Whiteboard
 
-Link: https://www.youtube.com/watch?v=azUko6LCb5k
+Link: 
 
