@@ -1,6 +1,6 @@
 ---
 title: Labs 8 Sprint 1
-date: "2018-11-09T22:40:32.169Z"
+date: "2018-11-09"
 ---
 
 ##Part 1 - Individual Accomplishments this Week
