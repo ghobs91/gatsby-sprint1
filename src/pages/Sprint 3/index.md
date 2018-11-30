@@ -5,14 +5,14 @@ date: "2018-30-11T22:40:32.169Z"
 
 ##Part 1 - Individual Accomplishments this Week
 Paste your team’s github contribution graph here and indicate your Github Handle:
-https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pulse
+https://github.com/Lambda-School-Labs/Labs8-OfflineReader/graphs/contributors
 My github: @ghobs91
  
 Provide a paragraph (5-8 sentences) summarizing the work you did this week, the challenges you faced, the tools you used, and your accomplishments
  
-My work this week focused on the 2nd two bullets of this weeks MVP, connecting the front and back end to enable creation of article objects, and integrating Oauth 3rd party libraries with our authentication system. For the first task, I built out the async redux structure needed to interact with our django backend in order to create user objects with articles associated with them. For the second task, I wrote and then fully refactored our front end login flow, adding google Oauth in the second refactor.
+My work this week initially focused on implementing the 2nd API, and then on building out the front end and redux framework of our core functionality. For the first task, I chose to integrate NewsAPI into an Explore tab, pulling the latest headlines to display for users. This was meant to give new users a starting point for idea of what articles to save. For the second task, I created the front end and redux flow which allows a user to submit a url to our scraper, have the scraper process the page, create a Page object with those properties, and then repopulate the users page with those new articles.
 
-The biggest challenges and lessons this week revolved around a) Putting too many tasks into each PR, and b) Not efficiently dividing mvp tasks between us in a way that led to duplication of work. For the former, I will work to better divide my tasks into multiple PRs, as the 2 PRs I submitted this week were quite large, and were realistically at least 4-5 PRs worth of work. For the latter, our group will spend some time today building an improved work flow so that we efficiently utilize our efforts and don't struggle to meet MVP going forward.
+The biggest challenges and lessons this week revolved around prioritizing the most important tasks. This was particularly important this week, because we needed to make sure we were all focusing our time on tasks that pertained to core functionality. 
  
  
 ##Tasks Pulled
@@ -64,13 +64,8 @@ Finally, a protected component was created that shows the articles associated wi
  
 ##Part 2 - Milestone Reflections
  
-As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to integrate several servers, pages, APIs, and services into one project. Describe how your pieces of the project interfaced with and integrated with your teammates.
- 
-This week was enlightening in the intricacies of implementing multiple APIs and having them play well with our backend, and with each other. Each API has its own format of how JSON should be submitted and how it is returned. This pushed us to write our own wiki entry to standardize across the team the formatting in which we would submit articles for each user. We made this wiki collaborative so that the full stack and iOS teams both had input into their needs for data modeling.
-
-This made us learn just how incredibly important it is to communicate and coordinate our efforts well. If one team member is not up to speed on how another is implementing a certain API, they will have issues determing the optimal way for their article objects to be created in line with how associated user objects are set up, for example. We learned a valuable lesson this week just how crucial it is for us to better coordinate our delegation of MVP tasks so that effort and time is not wasted on duplication of efforts that then need to be refactored. I'm confident going forward that our productivity will be greatly increased when we start to begin every week with a discussion of exactly how the MVP tasks will be divided, and which members should work closely together when relevant. 
- 
-As a group, provide links to evidence that:
+As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to convert a disparate set of components into a single, cohesive, and complete product. Describe the challenges you faced and the steps you took to overcome them.
+As a group, demonstrate that you project has implemented every feature in the specification. Bugs can be present, and a rough experiences is expected. List each major feature in your specification and provide a link to where that feature is implemented.
 
 Front end deploy: 
 
