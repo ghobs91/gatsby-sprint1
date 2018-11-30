@@ -78,5 +78,5 @@ This past week taught our team a great deal on how to work with a deadline and p
 
 ## Whiteboard
 
-Link: 
+Link: https://youtu.be/uLyaX6oJwJw
 
