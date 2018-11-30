@@ -21,29 +21,30 @@ List the tasks you pulled this week, and provide a link to the successfully merg
 ####Front End
 Ticket 1
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/51
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/77
 
-Trello: https://trello.com/c/TjObsJ5W/83-refactored-signup-signin-logout-and-reducer-actions-to-have-most-of-django-auth-flow-setup
+Trello: https://trello.com/c/uEPxSvkD/151-front-end-structure-to-submit-url-to-scraper
 
 Ticket 2
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/39
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/80
 
-Trello: https://trello.com/c/8H2oo6NP/21-redux-setup-to-interact-with-api
+Trello: https://trello.com/c/A5WEHbMF/152-front-end-component-redux-structure-to-plug-into-pages-api
 
 Ticket 3
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/51
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/89
 
-Trello: https://trello.com/c/sw0I9lOk/107-integrate-google-oauth-into-frontend
+Trello: https://trello.com/c/glUNdW3N/173-clean-up-flow-layout-of-sending-url-to-scraper-and-loading-articles
 
 ####Back End
 
 Ticket 1
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/wiki/Article-JSON-structure
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/81
 
-Trello: https://trello.com/c/Hz58DXOc/79-create-structure-property-wiki-for-how-article-objects-will-look
+Trello 1: https://trello.com/c/Yh7joaDx/166-scraper-handling-of-main-page-text
+Trello 2: https://trello.com/c/BuXinrWe/165-handle-cover-image-and-full-text-in-scraper
  
  
 ##Detailed Analysis
