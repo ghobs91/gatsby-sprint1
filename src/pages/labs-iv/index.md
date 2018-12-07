@@ -90,5 +90,5 @@ This past week
 
 ## Whiteboard
 
-Link: 
+Link: https://youtu.be/Stebz984WWY
 
