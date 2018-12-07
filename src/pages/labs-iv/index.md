@@ -22,30 +22,36 @@ List the tasks you pulled this week, and provide a link to the successfully merg
 ####Front End
 Ticket 1
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/77
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/101
 
-Trello: https://trello.com/c/uEPxSvkD/151-front-end-structure-to-submit-url-to-scraper
+Trello: https://trello.com/c/5fchQ3Wr/183-responsive-front-end-v1
 
 Ticket 2
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/80
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/124
 
-Trello: https://trello.com/c/A5WEHbMF/152-front-end-component-redux-structure-to-plug-into-pages-api
+Trello: https://trello.com/c/y7gtOEAn/220-successfully-retrieve-offline-pages
 
 Ticket 3
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/89
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/122
 
-Trello: https://trello.com/c/glUNdW3N/173-clean-up-flow-layout-of-sending-url-to-scraper-and-loading-articles
+Trello: https://trello.com/c/nHAjqDuS/210-save-page-object-to-offline-db
+
+Ticket 4
+
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/126
+
+Trello: https://trello.com/c/y7gtOEAn/220-successfully-retrieve-offline-pages
 
 ####Back End
 
 Ticket 1
 
-Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/81
+Github: https://github.com/Lambda-School-Labs/Labs8-OfflineReader/pull/114
 
-Trello 1: https://trello.com/c/Yh7joaDx/166-scraper-handling-of-main-page-text
-Trello 2: https://trello.com/c/BuXinrWe/165-handle-cover-image-and-full-text-in-scraper
+Trello 1: https://trello.com/c/OcqHYsA7/204-service-worker-and-sqlite-db-page-schema
+
  
  
 ##Detailed Analysis
