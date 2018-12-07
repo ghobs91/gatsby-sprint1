@@ -73,17 +73,22 @@ Finally, below you can see the LocalForage function that returns a specific offl
  
 ##Part 2 - Milestone Reflections
  
-As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to convert a disparate set of components into a single, cohesive, and complete product. Describe the challenges you faced and the steps you took to overcome them.
-As a group, demonstrate that you project has implemented every feature in the specification. Bugs can be present, and a rough experiences is expected. List each major feature in your specification and provide a link to where that feature is implemented.
+As a part of your journal entry, write ¼ to ½ a page reflecting on your experiences working with a team to make your product look and feel as good as it works under the hood. Describe how the duties of you and your team shifted tasks shifted towards the front end - and debugging the back end to improve UX. As a group, provide documentation of your progress and remaining tasks:
 
-This past week taught our team a great deal on how to work with a deadline and prioritize tasks. We struggled the first day due to a miscommunication from the rubric regarding which core functions to focus on, but quickly regrouped and divided up tasks accordingly. One of the challenges we faced was how to optimally complete a core function when another function was delayed in its completion. This taught us how to better modularize our functionality so that it could stand alone when another fxn wasn't completely operational. We also learned how best to determine how best to work on similar tasks without writing conflicting code. 
+The challenge and learning opportunity this week revolved around dedicating enough of our efforts to front end polish while having to take care of bugs on the back end. This required us to constantly keep the lines of communication open in order to shift workload between team members efficiently. This was especially important for our situation, as our back end bugs made it so that important portions of the front end couldn't render correctly. As a result, it was difficult to accurately gauge the front end polish, as you can't polish what isn't showing. 
 
-1. Home Page: https://anywhere-reader-test.netlify.com/landingpage
-2. Dashboard: https://anywhere-reader-test.netlify.com/
+The big lesson that came out of this is to adapt our priorities on core functionality first, even if it meant security and auth flow weren't perfect. We also learned to be more vocal to PMs and staff when a backend issue causes our functionality to regress instead of adding features. We now know going forward to make sure not to sacrifice core functions in the name of aspects like security that won't be important until down the road.
+
+Link to each page and describe any remaining bugs, fixes, or tasks that need to be completed on that page
+
+This past week 
+
+1. Home Page: https://anywhere-reader-test.netlify.com/
+2. Dashboard: https://anywhere-reader-test.netlify.com/articles
 3. Settings: https://anywhere-reader-test.netlify.com/settings
 4. Modal: https://anywhere-reader-test.netlify.com/viewpage
 
 ## Whiteboard
 
-Link: https://youtu.be/uLyaX6oJwJw
+Link: 
 
