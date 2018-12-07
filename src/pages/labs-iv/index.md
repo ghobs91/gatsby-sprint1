@@ -57,19 +57,19 @@ Trello 1: https://trello.com/c/OcqHYsA7/204-service-worker-and-sqlite-db-page-sc
 ##Detailed Analysis
 Pick one of your tickets and provide a detailed analysis of the work you did.  This should be approximately ¼ page of text, and at least three screenshots.
  
-####Front End Ticket 2 analysis
-This ticket involved pulling together the flow of submit url -> scraper processes url -> creates page object -> front end populates with new page object.
+####Front End Ticket 3 analysis
+This ticket involved integrating the LocalForage offline storage into our front and back end flow.
 
-In the below screenshot, you can see a portion of the action function that pertains to making a POST request to the scraper with the URL. After successfully scraping the article, the function then makes a GET request to pull the new Page object and repopulate the page. 
-![alt text](https://i.imgur.com/au54sGY.png)
+In the below screenshot, you can see a portion of the action function in which after submitting the url to the scraper, the scraper creates a new page object, then returns all page objects including the new one. LocalForage is then used to save a new offline page object corresponding to that new page object created on the back end. 
+![alt text](https://i.imgur.com/eVtjjIV.png)
 
-Below is the main fetch pages action fxn that runs whenever the dashboard is loaded/refreshed:
+Below, you can see the LocalForage function that fetches all offline pages when it's determined that the client is offline.
 
-![alt text](https://i.imgur.com/VP2dSOi.png)
+![alt text](https://i.imgur.com/uAK1Erv.png)
 
-Finally, below you can see the front end flow that pulls this all together:
+Finally, below you can see the LocalForage function that returns a specific offline page, when that page is clicked and a modal needs to be loaded:
  
-![alt text](https://i.imgur.com/EK3Zbyz.png 
+![alt text](https://i.imgur.com/Iwi2YC3.png 
  
 ##Part 2 - Milestone Reflections
  
