@@ -69,7 +69,7 @@ Below, you can see the LocalForage function that fetches all offline pages when 
 
 Finally, below you can see the LocalForage function that returns a specific offline page, when that page is clicked and a modal needs to be loaded:
  
-![alt text](https://i.imgur.com/Iwi2YC3.png 
+![alt text](https://i.imgur.com/Iwi2YC3.png)
  
 ##Part 2 - Milestone Reflections
  
