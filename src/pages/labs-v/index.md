@@ -11,7 +11,7 @@ Provide a paragraph (5-8 sentences) summarizing the work you did this week, the 
  
 My work this week focused on finalizing and testing offline storage against our production database. In particular, I added functionality to our offline storage that enables audio and video streams to be saved to the client's offline indexedDB database. I did this using the saveoffline API, which accepts a url, extracts audio/video from the site, and then returns a stream/download link. This link is then converted into a blob object and saved to the offline db in that form. 
 
-The biggest challenges and lessons this week revolved around several issues I had with running the backend and database locally. This slowed things down a bit initially, as it made it much harder to accurately test offline storage.
+The biggest challenges and lessons this week revolved around several issues I had with running the back end and database locally. This slowed things down a bit initially, as it made it much harder to accurately test offline storage.
  
 ##Tasks Pulled
 List the tasks you pulled this week, and provide a link to the successfully merged PR completing that task and the trello card for that task. You must have at least one front end and one back end. The expected total is 6 with a minimum of 4.
